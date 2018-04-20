@@ -37,3 +37,7 @@ $ git rm PROJECTS.md       (also removes the file from your working directory)
 $ git rm --cached README   (keep the file in your working tree but remove it from your staging area)
 $ git rm log/\*.log        (remove all files with .log extension)
 
+12. Moving/Renaming Files
+$ git mv file_from file_to
+$ git mv README.md README
+
