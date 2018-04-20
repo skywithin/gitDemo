@@ -13,6 +13,6 @@ $ git commit -m 'initial project version'
 $ git clone https://github.com/libgit2/libgit2
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 
-
-
+5. Checking the Status of Your Files
+$ git status
 
