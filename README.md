@@ -16,3 +16,8 @@ $ git clone https://github.com/libgit2/libgit2 mylibgit
 5. Checking the Status of Your Files
 $ git status
 
+6. Staging Modified Files
+$ git add CONTRIBUTING.md
+$ git status
+
+
