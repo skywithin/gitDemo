@@ -8,3 +8,11 @@ git add *
 
 3. Commit
 $ git commit -m 'initial project version'
+
+4. Cloning an Existing Repository
+$ git clone https://github.com/libgit2/libgit2
+$ git clone https://github.com/libgit2/libgit2 mylibgit
+
+
+
+
