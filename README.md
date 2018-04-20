@@ -32,3 +32,5 @@ $ git diff --staged
 10. Skipping the Staging Area
 $ git commit -a -m 'added new benchmarks'
 
+11. Removing Files
+$ git rm PROJECTS.md
