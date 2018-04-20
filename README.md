@@ -41,3 +41,36 @@ $ git rm log/\*.log        (remove all files with .log extension)
 $ git mv file_from file_to
 $ git mv README.md README
 
+13. Viewing the Commit History
+$ git log
+$ git log -p -2
+$ git log --stat
+$ git log --pretty=oneline
+$ git log --pretty=format:"%h - %an, %ar : %s"
+$ git log --pretty=format:"%h %s" --graph
+
+-p               Show the patch introduced with each commit.
+--stat           Show statistics for files modified in each commit.
+--shortstat      Display only the changed/insertions/deletions line from the --stat command.
+--name-only      Show the list of files modified after the commit information.
+--name-status    Show the list of files affected with added/modified/deleted information as well.
+--abbrev-commit  Show only the first few characters of the SHA-1 checksum instead of all 40.
+--relative-date  Display the date in a relative format (for example, "2 weeksago") instead of using the full date format.
+--graph          Display an ASCII graph of the branch and merge history beside the log output.
+--pretty         Show commits in an alternate format. Options include oneline, short, full, fuller, and format (where you specify your own format).
+
+%H    Commit hash
+%h    Abbreviated commit hash
+%T    Tree hash
+%t    Abbreviated tree hash
+%P    Parent hashes
+%p    Abbreviated parent hashes
+%an   Author name
+%ae   Author email
+%ad   Author date (format respects the --date=option)
+%ar   Author date, relative
+%cn   Committer name
+%ce   Committer email
+%cd   Committer date
+%cr   Committer date, relative
+%s    Subject
