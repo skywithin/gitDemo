@@ -81,5 +81,6 @@ Useful options for git log --pretty=format
 14. Undoing Things
 $ git commit --amend
 
-
+15. Unstaging a Staged File
+git reset HEAD fileToUnstage.md
 
