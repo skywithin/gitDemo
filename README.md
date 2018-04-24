@@ -117,5 +117,8 @@ $ git push origin master
 $ git remote show origin
 $ git remote
 
+22. Removing and Renaming Remotes
+$ git remote rename pb paul
+$ git remote rm paul
 
 
