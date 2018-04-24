@@ -48,7 +48,9 @@ $ git log --stat
 $ git log --pretty=oneline
 $ git log --pretty=format:"%h - %an, %ar : %s"
 $ git log --pretty=format:"%h %s" --graph
+$ git log --since=2.weeks
 
+Common options to git log:
 -p               Show the patch introduced with each commit.
 --stat           Show statistics for files modified in each commit.
 --shortstat      Display only the changed/insertions/deletions line from the --stat command.
@@ -59,6 +61,7 @@ $ git log --pretty=format:"%h %s" --graph
 --graph          Display an ASCII graph of the branch and merge history beside the log output.
 --pretty         Show commits in an alternate format. Options include oneline, short, full, fuller, and format (where you specify your own format).
 
+Useful options for git log --pretty=format
 %H    Commit hash
 %h    Abbreviated commit hash
 %T    Tree hash
@@ -74,3 +77,9 @@ $ git log --pretty=format:"%h %s" --graph
 %cd   Committer date
 %cr   Committer date, relative
 %s    Subject
+
+14. Undoing Things
+$ git commit --amend
+
+
+
