@@ -113,3 +113,8 @@ Generally fetches data from the server you originally cloned from and automatica
 $ git push [remote-name] [branch-name]
 $ git push origin master
 
+21. Inspecting a Remote
+$ git remote show origin
+
+
+
