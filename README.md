@@ -93,3 +93,9 @@ Any changes you made to that file are gone – Git just copied another file over
 $ git remote
 $ git remote -v (shows you the URLs that Git has stored for the )shortname)
 
+18. Adding Remote Repositories
+To add a new remote Git repository as a shortname you can reference:
+$ git remote add <shortname> <url>
+
+Then you can use the string <shortname> on the command line in lieu of the whole URL.
+$ git fetch <shortname>
