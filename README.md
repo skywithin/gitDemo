@@ -108,3 +108,8 @@ It’s important to note that the git fetch command only downloads the data to y
 
 $ git pull 
 Generally fetches data from the server you originally cloned from and automatically tries to merge it into the code you’re currently working on.
+
+20. Pushing to Your Remotes
+$ git push [remote-name] [branch-name]
+$ git push origin master
+
