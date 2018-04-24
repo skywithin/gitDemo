@@ -99,3 +99,12 @@ $ git remote add <shortname> <url>
 
 Then you can use the string <shortname> on the command line in lieu of the whole URL.
 $ git fetch <shortname>
+
+19. Fetching and Pulling from Your Remotes
+$ git fetch [remote-name]
+$ git fetch origin
+
+It’s important to note that the git fetch command only downloads the data to your local repository – it doesn’t automatically merge it with any of your work or modify what you’re currently working on. You have to merge it manually into your work when you’re ready.
+
+$ git pull 
+Generally fetches data from the server you originally cloned from and automatically tries to merge it into the code you’re currently working on.
