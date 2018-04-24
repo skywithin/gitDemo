@@ -84,3 +84,8 @@ $ git commit --amend
 15. Unstaging a Staged File
 git reset HEAD fileToUnstage.md
 
+16. Unmodifying a Modified File
+$ git checkout -- CONTRIBUTING.md
+
+Any changes you made to that file are gone – Git just copied another file over it.
+
