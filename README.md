@@ -121,4 +121,10 @@ $ git remote
 $ git remote rename pb paul
 $ git remote rm paul
 
+23. Tagging
+$ git tag (Listing the available tags in Git)
+$ git tag -l "v1.8.5*" (search for tags with a particular pattern)
 
+$ git tag -a v1.4 -m "my version 1.4" (Creating an annotated tag)
+
+$ git tag v1.4-lw (Creating a lightweight tag)
