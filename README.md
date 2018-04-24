@@ -115,6 +115,7 @@ $ git push origin master
 
 21. Inspecting a Remote
 $ git remote show origin
+$ git remote
 
 
 
