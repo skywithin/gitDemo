@@ -89,3 +89,7 @@ $ git checkout -- CONTRIBUTING.md
 
 Any changes you made to that file are gone – Git just copied another file over it.
 
+17. Showing Your Remotes
+$ git remote
+$ git remote -v (shows you the URLs that Git has stored for the )shortname)
+
