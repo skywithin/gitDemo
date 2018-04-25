@@ -166,5 +166,9 @@ Deleted branch hotfix (3a0874c).
 29. Basic Merge Conflicts - p.96
 $ git mergetool
 
+30. Branch Management
+$ git branch (shows a listing of your current branches)
+$ git branch -v (shows the last commit on each branch)
 
-
+$ git branch --merged (shows which branches are already merged into the branch you're on)
+$ git branch --no-merged (To see all the branches that contain work you haven't yet merged in)
