@@ -172,3 +172,13 @@ $ git branch -v (shows the last commit on each branch)
 
 $ git branch --merged (shows which branches are already merged into the branch you're on)
 $ git branch --no-merged (To see all the branches that contain work you haven't yet merged in)
+
+31. Remote Branches
+$ git ls-remote [remote]
+$ git remote show [remote]
+
+$ git fetch origin (This command looks up which server “origin” is, fetches any data from it that you don't yet have, and updates your local database, moving your origin/master pointer to its new, more up-to-date position.
+
+32. Pushing
+$ git push <remote> <branch>
+$ git push origin serverfix
