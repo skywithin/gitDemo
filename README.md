@@ -49,6 +49,7 @@ $ git log --pretty=oneline
 $ git log --pretty=format:"%h - %an, %ar : %s"
 $ git log --pretty=format:"%h %s" --graph
 $ git log --since=2.weeks
+$ git log --oneline --decorate
 
 Common options to git log:
 -p               Show the patch introduced with each commit.
@@ -144,4 +145,11 @@ To put a version of your repository in your working directory that looks like a 
 $ git checkout -b [branchname] [tagname]
 $ git checkout -b version2 v2.0.0
 Switched to a new branch 'version2'
+
+25. Creating a New Branch
+$ git branch develop
+
+26. Switching Branches
+$ git checkout develop
+
 
