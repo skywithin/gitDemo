@@ -159,5 +159,12 @@ Switched to a new branch 'hotfix'
 $ git checkout master (first, switch to desired branch)
 $ git merge hotfix
 
+28. Deleting Branches
+$ git branch -d hotfix
+Deleted branch hotfix (3a0874c).
+
+
+
+
 
 
