@@ -128,3 +128,10 @@ $ git tag -l "v1.8.5*" (search for tags with a particular pattern)
 $ git tag -a v1.4 -m "my version 1.4" (Creating an annotated tag)
 
 $ git tag v1.4-lw (Creating a lightweight tag)
+
+24. Checking out Tags
+To put a version of your repository in your working directory that looks like a specific tag, you can create a new branch at a specific tag
+$ git checkout -b [branchname] [tagname]
+$ git checkout -b version2 v2.0.0
+Switched to a new branch 'version2'
+
