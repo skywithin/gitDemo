@@ -78,6 +78,16 @@ Useful options for git log --pretty=format
 %cr   Committer date, relative
 %s    Subject
 
+To navigate while in log or diff mode:
+
+Next line:        j / return
+Previous line:    k
+Next page:        f / space bar
+Previous page:    b / w
+Quit viewing:     q
+Help:             h
+
+
 14. Undoing Things
 $ git commit --amend
 
