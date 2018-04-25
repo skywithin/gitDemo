@@ -50,6 +50,7 @@ $ git log --pretty=format:"%h - %an, %ar : %s"
 $ git log --pretty=format:"%h %s" --graph
 $ git log --since=2.weeks
 $ git log --oneline --decorate
+$ git log --oneline --decorate --graph --all
 
 Common options to git log:
 -p               Show the patch introduced with each commit.
@@ -151,5 +152,12 @@ $ git branch develop
 
 26. Switching Branches
 $ git checkout develop
+$ git checkout -b hotfix (create a branch and switch to it at the same time)
+Switched to a new branch 'hotfix'
+
+27. Merging Branches
+$ git checkout master (first, switch to desired branch)
+$ git merge hotfix
+
 
 
