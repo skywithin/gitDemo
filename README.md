@@ -163,8 +163,8 @@ $ git merge hotfix
 $ git branch -d hotfix
 Deleted branch hotfix (3a0874c).
 
-
-
+29. Basic Merge Conflicts - p.96
+$ git mergetool
 
 
 
